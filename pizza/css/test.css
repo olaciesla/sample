@@ -1,0 +1,148 @@
+:root {
+    --contrast: rgb(225, 240, 225);
+    --backgr: #c3d9ad;
+    --blue: #81a6f7;
+    --darth:  #242629;
+}
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Lilita+One&family=Pacifico&display=swap');
+
+/* about my fonts 
+font-family: 'Black Ops One', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+h1 {
+    font-family: 'Black Ops One', cursive;
+}
+h2, p {
+    font-family: 'Pacifico', cursive;
+}
+
+    body {
+        background-color: var(--contrast);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: #ef77f9;
+    }
+
+    article {
+        width: 100%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+body {
+    background-color: #61e098;
+}
+
+article {
+    width: 100%;
+   }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  body {
+    background-color: var(--contrast);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
+
+/* Google */ 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* navigation */
+nav {
+    background-color: var(--darth);
+    color: var(--pink);
+    height: 20vh;
+    position: top;
+    /*top: 0;*/
+    width: 100%;
+
+}
+
+/* how to style links */
+a {
+    background-color: var(--pink);
+}
+
+a:hover {
+    background-color: var(--contrast);
+    font-size: xx-large;
+}
+
+a:visited {
+    background-color: var(--darth);
+    color: var(--contrast);
+}
+
+#logo3 {
+    width: 123px;
+}
+
+header {
+    display: flex;
+}
+
+header div {
+    padding-left: 11%;
+}
+
+#pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+
+article {
+    /*width: 333px;*/
+    width: 33%;
+    padding: 4ch;
+    padding-top: 2ch;
+    /* this is how to center things.. 
+
+    margin-left: auto;
+    margin-right: auto;
+    */
+   
+    margin-bottom: 12px;
+    border: 5px solid var(--darth);
+    border-radius: 46px;
+    background-color: var(--blue);
+    background-image: url('../images/background.jpeg');
+}
+
+    .text {
+        color: rgb(0, 0, 0);
+    }
+
+    .DonaldDuck {
+        background-color: var(--contrast);
+        background-image: none;
+    }
+
+    img {
+        max-width: 100%;
+    }
+    
+    button {
+        background-color: var(--contrast); /* Green */
+        border: none;
+        color: var(--darth);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5rem;
+    }
